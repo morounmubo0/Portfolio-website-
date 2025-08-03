@@ -1,0 +1,50 @@
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #ccc;
+   width: 100vw;
+   position: relative;
+   left: 0;
+   margin: 0;
+   padding: 20px 50px;
+   box-sizing: border-box;   
+}
+
+.logo{
+    margin-right: 20px;
+    object-fit: cover;
+
+}
+.navbar h1{
+    margin-right: 1080px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav-menu li{
+    margin: 1rem;
+    cursor: pointer;
+    color: yellow;
+}
+
+.nav-menu li:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid ;
+}
+
+.btn{
+    width: 120px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}

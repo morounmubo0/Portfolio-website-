@@ -1,0 +1,30 @@
+.proj h1{
+    margin-left: 30px;
+    
+}
+
+.project-images {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-a{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.img-b{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.img-c{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+}

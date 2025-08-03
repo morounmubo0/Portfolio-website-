@@ -1,0 +1,124 @@
+.servicePage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.servicePage h1 {
+  margin: 0 0 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 1.75rem 2rem;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card .left {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.text-block {
+  max-width: 600px;
+}
+
+.service-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.service-card p {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.btn3,
+.btn-1 {
+
+  border: none;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  color: #fff;
+  transition: filter var(--transition), transform var(--transition);
+}
+
+.btn3:hover,
+.btn-1:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.service-card .right {
+  flex: 0 0 260px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-placeholder {
+  width: 220px;
+  height: 120px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-placeholder img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .service-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+
+  .service-card .right {
+    width: 100%;
+    flex: none;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .image-placeholder {
+    width: 100%;
+    height: 160px;
+  }
+
+  .btn3,
+  .btn-1 {
+    margin-top: 0.5rem;
+  }
+}
+
+
+
