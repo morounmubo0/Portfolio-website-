@@ -4,15 +4,15 @@ import HomePage from './Pages/HomePage/HomePages'
 import './App.css'
 
 function App() {
- 
+
   return (
-     <Router>
+    <Router>
       <Routes>
-        <Route path="/" element={<HomePage />}/>
-        <Route path="/about" element={<AboutPage />}/>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
-      </Router>
+    </Router>
   )
 }
-   
+
 export default App
