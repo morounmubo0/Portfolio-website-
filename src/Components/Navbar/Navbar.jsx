@@ -3,7 +3,7 @@ import './Navbar.css'
 
 
 
-import logo from '../../../assets/Logo.svg'
+import logo from '../../assets/Logo.svg'
 const Navbar = () => {
   return (
     <div className='navbar'>

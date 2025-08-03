@@ -1,11 +1,11 @@
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar'
 import './HomePage.css'
 import image_bg from '../../assets/image_bg.png' 
 const HomePage = () => {
 
   return (
    
-    <section id='hero'>
+    <section id='hero'> 
        <Navbar />
         <div className='hero'>
           <div className='hero1'>

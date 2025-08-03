@@ -1,11 +1,10 @@
-import {useState} from 'react'
 import '../AboutPage/AboutPage.css'
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar'
 
 const AboutPages = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar/> 
     <div>
       <h1>About Me</h1>
       <p>My name is Aishat Adeyemi, o and I am a dedicated frontend developer with a strong interest in creating functional and user-friendly web experiences. I specialize in building responsive websites using modern technologies such as HTML, CSS, JavaScript, and React.
