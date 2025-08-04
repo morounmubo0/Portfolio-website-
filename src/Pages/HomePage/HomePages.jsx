@@ -5,7 +5,7 @@ const HomePage = () => {
 
   return (
    
-    <section id='hero'>
+    <section id='hero'> 
        <Navbar />
         <div className='hero'>
           <div className='hero1'>
