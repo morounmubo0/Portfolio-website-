@@ -1,78 +1,8 @@
-/* #hero {
-  width: 100%;
-  max-width: 75rem;
-  margin: 0 auto;
-  position: relative;
-  justify-content: space-around;
-  align-items: center;
-  gap: 300px;
-}
-.hero{
-   width: 100%;
-}
-
-.hero1{
-    display: flex;
-    flex-direction: row;
-    gap: 30rem;
-}
-
-.hero2{
-    margin-top: 150px;
-    width: 50%;
-}
-
-.bg {
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-}
-
-.hero h1{
-    font-size: 2rem;
-    font-style: normal;
-    color: white;
-}
-
-
-.hero p {
-    color: white;
-}
-
-.btn1{
-    width: 400px;
-    padding: 10px;
-    border-radius: 60px;
-    background-color: yellow;
-}
-
-@media screen and (max-width: 800px){
-    #hero {
- gap: 0;
- overflow-x: hidden;
-}
-    .hero1{
-    flex-direction: column;
-    gap: 10rem;
-}
-
-.hero2{
-    margin-top: 0;
-    margin-left: 60px;
-}
-
-.btn{
-   margin-top: 40px;
-}
-
-} */
-
-
 #hero {
   width: 100%;
   margin: 0 auto;
   padding: 40px 20px;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 .hero {
@@ -124,6 +54,12 @@
   color: black;
   border: none;
   margin-top: 20px;
+}
+
+.btn1:hover {
+  background-color: #f0c040;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 @media screen and (max-width: 768px) {
