@@ -1,4 +1,5 @@
 import './ServicePage.css'
+import Navbar from '../../Components/Navbar/Navbar'
 import image3 from '../../assets/image3.png'
 import image1 from '../../assets/image1.png'
 
@@ -22,6 +23,7 @@ const ServiceCard = ({ title, description, imgSrc, btnClass }) => (
 const ServicePage = () => {
   return (
     <div className="servicePage">
+      <Navbar />
       <h1>Services</h1>
       <div className="cards">
         <ServiceCard

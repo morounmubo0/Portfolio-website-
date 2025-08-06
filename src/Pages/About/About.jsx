@@ -1,5 +1,6 @@
 import './About.css';
 import { FaFigma, FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaPalette} from 'react-icons/fa';
+import Navbar from '../../Components/Navbar/Navbar';
 import about from '../../assets/about.jpg';
 
 const skills = [
@@ -14,6 +15,7 @@ const skills = [
 const About = () => {
     return (
         <div className="skill-container">
+            <Navbar />
             <div className="profile-section">
                 <div className="avatar"
                     style={{ backgroundImage: `url(${about})` }}
