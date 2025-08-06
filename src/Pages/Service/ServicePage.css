@@ -61,7 +61,8 @@
   font-weight: 600;
   cursor: pointer;
   letter-spacing: 0.5px;
-  color: #fff;
+  color: black;
+  background-color: yellow;
   transition: filter var(--transition), transform var(--transition);
 }
 
