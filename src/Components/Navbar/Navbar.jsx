@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link to="/service"><li>Service</li></Link>
           <Link to="/project"><li>Project</li></Link>
       </ul>
-          <button className='btn'>Contact Me</button>
+          <a href="http://moromubo2004@gmail.com" className='btn'> Contact Me </a>
 
     </div>
   )

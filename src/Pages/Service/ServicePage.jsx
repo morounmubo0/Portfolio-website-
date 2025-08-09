@@ -39,6 +39,12 @@ const ServicePage = () => {
           btnClass="btn-1"
         />
       </div>
+      <div className='contact'>
+      <h2 className='text'>Contact Me</h2>
+      <a href="http://moromubo2004@gmail.com">Gmail</a>
+      <a href="http://https://www.linkedin.com/in/aishat-adeyemi-544aaa26b/">Linkedln</a>
+      <a href="http://https://github.com/morounmubo0">Github</a>
+      </div>
     </div>
   )
 }

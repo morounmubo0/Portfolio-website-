@@ -97,6 +97,32 @@
   display: block;
 }
 
+.contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  transition: color var(--transition);
+}
+
+.contact a:hover {
+  color: yellow;
+}
+
 @media (max-width: 900px) {
   .service-card {
     flex-direction: column;

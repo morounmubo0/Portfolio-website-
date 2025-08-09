@@ -16,7 +16,7 @@ const HomePage = () => {
 I'm a passionate UI/UX designer and frontend developer dedicated to crafting intuitive and visually appealing digital experiences. My mission is to bridge the gap between design and technology, creating seamless user journeys that drive engagement and achieve business goals.
 
           </p>
-          <button className='btn1'>Learn More</button>
+          <button className='btn1'> <a href="http://github.com/morounmubo0" className='btn1'> Learn More </a></button>
             </div> 
 
           </div>
