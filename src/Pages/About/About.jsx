@@ -1,5 +1,5 @@
 import './About.css';
-import { FaFigma, FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaPalette} from 'react-icons/fa';
+import { FaFigma, FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaPalette,} from 'react-icons/fa';
 import Navbar from '../../Components/Navbar/Navbar';
 import about from '../../assets/about.jpg';
 
@@ -8,6 +8,7 @@ const skills = [
     { name: 'HTML', level: 96, icon: <FaHtml5 /> },
     { name: 'CSS', level: 90, icon: <FaCss3Alt /> },
     { name: 'React', level: 65, icon: <FaReact /> },
+    { name: 'Boostrap', level: 50, },
     { name: 'JavaScript', level: 80, icon: <FaJsSquare /> },
     { name: 'UI/UX Design', level: 99, icon: <FaPalette /> },
 ];
